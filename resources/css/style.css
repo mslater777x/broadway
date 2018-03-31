@@ -7,6 +7,7 @@ body {
 
 h1 {
   font-size: 70px;
+  font-weight: bold;
 }
 
 h2 {
@@ -23,15 +24,7 @@ p {
 
 nav {
   font-size: 18px;
-  color: white;
 }
-
-body .banner-background {
-  background-image: url(C:\Projects\broadway\resources\images\the-flatiron-building.png);
-  color: white;
-}
-
-
 
 nav a {
   color: white;
@@ -39,6 +32,12 @@ nav a {
 
 li {
   text-decoration: none;
+  list-style: none;
+}
+
+.banner-background {
+  background-image: url(../images/the-flatiron-building.png);
+  color: white;
 }
 
 .footer {
